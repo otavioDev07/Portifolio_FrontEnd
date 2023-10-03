@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo de Aumento</title>
+</head>
+<body>
+    <header>
+        <figure><img src="issets/001-bolsa-de-dinheiro.png" alt=""></figure>
+        <h1>TechNova Solutions</h1>
+    </header>
+    <div class="container container-calculo-aumento">
+        <div class="conteudo">
+            <h1>Calculo de Aumento</h1>
+            <form>
+                <div> <label for="salario">Salário</label>
+                    <input class="input" id="salario" name="salario" type="number">
+                </div>
+            </form>
+        </div>
+        <div class="resultado" >
+            <div class="botao">
+                <button><span class="button_top" onclick="exibir()"> Enviar </span></button>
+                <a href="index.html"><button><span class="button_top"> Voltar </span></button></a>
+            </div>
+            <p id="resultado">Seu resultado...</p>
+        </div>
+    </div>
+    <script src="js-aumento.js"></script>
+</body>
+</html>

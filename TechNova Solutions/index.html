@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechNova Solutions</title>
+</head>
+<body onload="datahora()">
+    <header>
+        <figure><img src="issets/001-tecnologica.png" id="logo"></figure>
+        <h1>TechNova Solutions</h1>
+    </header>
+    <div class="container-horas-extras container-index">
+        <h1>Opções</h1>
+        <div class="index-buttons">
+            <a href="aumento.html"><button onmousemove="mudar_logo('issets/001-bolsa-de-dinheiro.png')" onmouseout="mudar_logo('issets/001-tecnologica.png')"><span class="button_top">Aumento de Salário</span></button></a>
+            <a href="horasextras.html"><button onmousemove="mudar_logo('issets/002-tempo-e-dinheiro.png')" onmouseout="mudar_logo('issets/001-tecnologica.png')"><span class="button_top">Cálculo de Horas Extras</span></button></a>
+            <a href="transporte.html"><button onmousemove="mudar_logo('issets/003-transporte-publico.png')" onmouseout="mudar_logo('issets/001-tecnologica.png')"><span class="button_top">Transporte de Colaboradores</span></button></a>
+        </div>
+        <div class="dataehora">
+            <p id="data">xx/xx/xxxx</p>
+            <p id="hora">z</p>
+        </div>
+    </div>
+    <script src="js-index.js"></script>
+    </body>
+    </html>

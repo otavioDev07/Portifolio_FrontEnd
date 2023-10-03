@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Transporte de Colaboradores</title>
+</head>
+<body>
+    <header>
+        <figure><img src="issets/003-transporte-publico.png" alt=""></figure>
+        <h1>TechNova Solutions</h1>
+    </header>
+    <div class="container container-transporte-colaboradores">
+        <div class="conteudo">
+            <h1>Transporte de Colaboradores</h1>
+            <form>
+                <div> <label for="salario">Qnt. de funcionários</label>
+                    <input class="input" id="funcionarios" name="salario" type="number">
+                </div>
+            
+                <div>
+                <label for="horas">Qnt. de dias úteis</label>
+                    <input class="input" id="dias" name="dias" type="number">
+                </div>
+            </form>
+        </div>
+        <div class="resultado" >
+            <div class="botao">
+                <button><span class="button_top" onclick="exibir()"> Enviar </span></button>
+                <a href="index.html"><button><span class="button_top"> Voltar </span></button></a>
+            </div>
+            <p id="resultado">Seu resultado...</p>
+        </div>
+    </div>
+    <script src="js-transporte.js"></script>
+</body>
+</html>

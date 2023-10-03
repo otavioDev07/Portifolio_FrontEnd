@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+/* reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #CFCFCF;
+    text-decoration: none;
+}
+
+/* estilização */
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 23em;
+    width: 28em;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+html {
+    height: 100%;
+}
+
+.bt-blue,
+.bt-blue p,
+.bt-red,
+.bt-red p {
+    height: 2em;
+    width: 8em;
+    text-align: center;
+    background-color: #839deb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 1.5em;
+    border-radius: 0.75em;
+}
+
+.corred {
+    background-color: #8b0000;
+}
+
+.container h1 {
+    margin-bottom: 8%;
+}
+
+input {
+    height: 2.7em;
+    background-color: #fff;
+}
+
+.acessarbottons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main form label {
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+p,
+label {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.text {
+    color: #ff0000;
+}
+
+/* Cadastro */
+
+.container2 {
+    width: 70em;
+    height: 40em;
+}
+
+.inputcadastro form {
+    width: 50em;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    flex-wrap: wrap;
+}
+
+.linhaespecial {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container2 .bt-blue {
+    margin-top: 3%;
+}
+
+.input1, .input2 {
+    width: 50%;
+}
+
+.inputcadastro form input {
+    width: 90%;
+}
+
+
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 768px) {
+   .container2 {
+        width: 90%;
+    }
+    .inputcadastro form {
+        width: 100%;
+    }
+    .bt-cadastro {
+        width: 10%;
+        height: 10%;
+    }
+    
+}

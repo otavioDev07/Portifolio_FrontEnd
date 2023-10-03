@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Horas Extras</title>
+</head>
+<body>
+    <header id="horaextra-header">
+        <figure><img src="issets/002-tempo-e-dinheiro.png" alt=""></figure>
+        <h1>TechNova Solutions</h1>
+    </header>
+    <div class="container container-horas-extras">
+        <div class="conteudo">
+            <h1>Calculo de Horas Extras</h1>
+            <form>
+                <div> <label for="salario">Salário</label>
+                    <input class="input" id="salario" name="salario" type="number">
+                </div>
+            
+                <div>
+                <label for="horas">Horas úteis</label>
+                    <input class="input" id="horas" name="horas" type="number">
+                </div>
+                
+                <div>
+                <label for="horasFDS">Horas no fim de semana</label>
+                    <input class="input" id="horasFDS" name="horasFDS" type="number">
+                </div>
+            </form>
+        </div>
+        <div class="resultado" >
+            <div class="botao">
+                <button><span class="button_top" onclick="exibir()"> Enviar </span></button>
+                <a href="index.html"><button><span class="button_top"> Voltar </span></button></a>
+            </div>
+            <p id="resultado">Seu resultado...</p>
+        </div>
+    </div>
+    <script src="js-horasextras.js"></script>
+</body>
+</html>

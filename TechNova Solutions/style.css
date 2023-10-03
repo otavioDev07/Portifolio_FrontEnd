@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* input */
+.input {
+    max-width: 190px;
+    background-color: #fcefef;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 25px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+    border: 1px solid black;
+    margin-top: 1%;
+}
+
+input:focus {
+    border-bottom: 2px solid #5b5fc7;
+    border-radius: 4px 4px 2px 2px;
+}
+
+input:hover {
+    outline: 1px solid lightgrey;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+/* fim do input */
+
+.container {
+    text-align: center;
+    padding: 3%;
+}
+
+.container-horas-extras {
+    width: 80%;
+    max-width: 600px;
+    height: 35em; 
+    margin: 5% auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+
+.container-calculo-aumento {
+    width: 80%;
+    max-width: 500px;
+    height: 23em;
+    margin: 5% auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.container-transporte-colaboradores {
+    width: 80%;
+    max-width: 500px;
+    height: 30em;
+    margin: 5% auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.container-index {
+    height: 25em;
+}
+
+.container-index h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultado {
+    margin-top: 5%;
+    height: 25px;
+}
+
+button {
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+  }
+  
+  .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+    transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+    transform: translateY(0);
+  }
+
+.container-calculo-aumento p, input, button, label {
+    margin-top: 10%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.container-horas-extras p, .container-transporte-colaboradores p {
+    margin-top: 7%;
+}
+
+button {
+    margin-top: 2%;
+}
+
+.container-index {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.index-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-buttons button {
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao button {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}
+
+#horaextra-header {
+    margin-bottom: -3em;    
+}
+
+figure {
+    height: 100%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.dataehora {
+    margin-right: -70%;
+    margin-bottom: -15%;
+    margin-top: 5%;
+}
+
+#data, #hora {
+    font-size: 1em;
+}
