@@ -18,7 +18,7 @@ Cada projeto é baseado em uma **situação problema** baseada em contextos comu
 * Crie uma pasta no seu computador para esse programa
 * Abra o **git bash ou terminal** dentro dessa pasta
 * Copie a **URL do repositório**
-* Digite **git clone <URL copiada>** e pressione **enter**
+* Digite **git clone (URL copiada)** e pressione **enter**
 * Acesse a pasta do projeto que desejar e execute o **<index.html>** correspondente
 
 
