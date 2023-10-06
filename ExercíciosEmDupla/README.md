@@ -1,5 +1,5 @@
 # O que é
-Série de exercícios de temas variados realizados em dupla com ('Ádillan W. Soares')[github.com/Adillan07]
+Série de exercícios de temas variados realizados em dupla com (Ádillan W. Soares)['github.com/Adillan07']
 
 # Tecnologias utilizadas
 * HTML
